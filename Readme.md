@@ -17,7 +17,7 @@ sajta https://www.python.org/
 Ukoliko to već nisi uradio, potrebno je da paket fajlova sa primerima preuzmeš na svoj računar. Treba samo da u neki 
 folder na tvom računaru raspakuješ _ZIP_ koji možeš preuzeti sa sledećeg linka: 
 
-https://github.com/Petlja/StemSimulacijeOS-files/archive/master.zip
+https://github.com/Petlja/StemSimulacijeOS-files/archive/main.zip
 
 Zatim pronađi fajl `SETUP.BAT` i pokreni ga (dvoklikom u *File Explorer*-u). Važno je da u tom trenutku budeš povezan na internet.
 
