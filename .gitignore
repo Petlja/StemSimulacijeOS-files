@@ -1,0 +1,9 @@
+.venv
+START_IDLE.lnk
+.vscode
+.idea/
+Thumbs.db
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
