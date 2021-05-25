@@ -59,9 +59,9 @@ def draw(m):
     Draw(t_m, t_g, t_t, t_h)
 
     for t, h, a in m.prolazna:
-        crtica = Line((6,h), (8,h))
+        crtica = Line((6,h), (12,h))
         crtica.pen_color = "#000000"
-        txt = Text((9,h-1),f"s={m.h0-h:6.2f}, a ={a:5.2f}, t ={t:5.2f}")
+        txt = Text((13,h-1),f"s={m.h0-h:6.2f}, a ={a:5.2f}, t ={t:5.2f}")
         txt.pen_color = "#880000"
         txt.font_size=4
         Draw(crtica, txt)

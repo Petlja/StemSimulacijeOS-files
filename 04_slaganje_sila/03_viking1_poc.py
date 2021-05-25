@@ -6,7 +6,7 @@ scena_w, scena_h = 50, 30
 brod_w, brod_h =  12, 9
 
 def setup(m):
-    PixelsPerUnit(10)
+    PixelsPerUnit(15)
     ViewBox((0, -dubina_mora), scena_w, scena_h)
     FramesPerSecond(30)
     UpdatesPerFrame(1)

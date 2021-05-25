@@ -2,12 +2,12 @@ import math
 from simanim import *
 
 dubina_mora = 9
-dno_broda = -0.9 # y koordinata dna broda
+dno_broda = -1.1 # y koordinata dna slike broda
 scena_w, scena_h  = 50, 30
 brod_w, brod_h =  12, 9
 
 def setup(m):
-    PixelsPerUnit(10)
+    PixelsPerUnit(15)
     ViewBox((0, -dubina_mora), 50, 30)
     FramesPerSecond(60)
     UpdatesPerFrame(10)

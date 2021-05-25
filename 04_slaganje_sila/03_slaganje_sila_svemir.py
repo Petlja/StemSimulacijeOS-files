@@ -84,11 +84,11 @@ def draw(m):
     # izdvojen prikaz vektora sila i njihovog slaganja
     max_vec = max(abs(m.Fa), abs(m.Fb), abs(m.Fc), abs(m.Fd))
     if max_vec > 0:
-        x0, y0, k = -3.5, -3.5, 1/max_vec
+        x0, y0, k = -3, -3, 0.01
         crtaj_vektor(x0, y0, 0, -k * m.Fa, '#ff0000') # A
         crtaj_vektor(x0, y0, -k * m.Fb, 0, '#ff8000') # B
         crtaj_vektor(x0, y0, 0, k * m.Fc,  '#ff0000') # C
         crtaj_vektor(x0, y0, k * m.Fd, 0,  '#ff8000') # D
-        crtaj_vektor(x0, y0, k*(m.Fd-m.Fb), k*(m.Fc-m.Fa), '#008000') # rez
+        crtaj_vektor(x0, y0, k*(m.Fd-m.Fb), k*(m.Fc-m.Fa), '#00ff00') # rez
 
 Run(setup, update, draw)
